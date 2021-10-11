@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  place-items: center;
+  background-color: black;
+}
+.clock {
+  background-color: rgb(0, 0, 0);
+  height: 120px;
+  width: 500px;
+  line-height: 100px;
+  text-align: center;
+  padding: 0 5px;
+  box-shadow: -3px 3px 7px rgba(255, 255, 255, 0.05),
+    3px 3px 5px rgba(0, 0, 0, 5);
+}
+.clock .display {
+  font-size: 60px;
+  color: rgb(0, 255, 34);
+  letter-spacing: 7px;
+  font-family: "Times New Roman", Times, serif;
+}
